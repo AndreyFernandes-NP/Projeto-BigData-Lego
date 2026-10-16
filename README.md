@@ -1,2 +1,51 @@
-# Projeto-BigData-Lego
-Projeto para EDA de dados de big data envolvendo a empresa americana Lego
+# Projeto BigData Lego
+Projeto envolvendo análise e exploração de dados de um dataset de produções da Lego, com o intuito de elaborar e desenvolver um notebook de EDA (Exploration Data Analysis), para encontrarmos e catalogarmos padrões.
+Feito para a matéria de I.A Big Data e Engenharia de Dados, da PUC-SP.
+
+**Requisitos**
+- Python 3.x
+- Dependências instaladas [```pip install -r requirements.txt```]
+- Ambiente virtual [recomendado]
+
+## Estrutura do Repositório
+
+```text
+Projeto-Bigdata-Lego/
+├── data/
+|   ├── lego_dataset.csv
+|   └── lego_dataset_processed.csv
+├── notebooks/
+|   ├── EDA_lego.ipynb
+├── src/
+|   ├── __config__.py
+|   ├── __init__.py
+|   ├── __main__.py
+|   ├── data_loader.py
+├── requirements.txt
+└── README.md
+```
+
+## Setup local
+
+1. **Clone o repositório**
+   ```bash
+   git clone https://github.com/AndreyFernandes-NP/Projeto-BigData-Lego.git
+   cd Projeto-BigData-Lego
+   ```
+2. **Crie um virtual environment**
+   ```bash
+    python -m venv .env
+    ```
+3. **Ative o ambiente virtual**
+   ```bash
+    .env/Scripts/Activate.ps1
+    ```
+3. **Instale as dependencias**
+   ```bash
+   pip install -r requirements.txt
+    ```
+4. **Execute o projeto**
+   ```bash
+   python -m src
+    ```
+****
