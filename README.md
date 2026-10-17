@@ -11,6 +11,20 @@ Feito para a matéria de I.A Big Data e Engenharia de Dados, da PUC-SP.
 
 ```text
 Projeto-Bigdata-Lego/
+├── data/
+|   ├── colors.parquet
+|   ├── elements.parquet
+|   ├── inventories.parquet
+|   ├── inventory_minifigs.parquet
+|   ├── inventory_parts.parquet
+|   ├── inventory_sets.parquet
+|   ├── lego_sets.parquet
+|   ├── minifigs.parquet
+|   ├── part_categories.parquet
+|   ├── part_relationships.parquet
+|   ├── parts.parquet
+|   ├── sets.parquet
+|   ├── themes.parquet
 ├── notebooks/
 |   ├── EDA_lego.ipynb
 ├── src/
