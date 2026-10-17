@@ -11,9 +11,6 @@ Feito para a matéria de I.A Big Data e Engenharia de Dados, da PUC-SP.
 
 ```text
 Projeto-Bigdata-Lego/
-├── data/
-|   ├── lego_dataset.csv
-|   └── lego_dataset_processed.csv
 ├── notebooks/
 |   ├── EDA_lego.ipynb
 ├── src/
