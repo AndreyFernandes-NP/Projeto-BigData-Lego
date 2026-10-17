@@ -1,5 +1,5 @@
 # Projeto BigData Lego
-Projeto envolvendo análise, exploração e manipulação de dados de um dataset de produções da Lego envolvendo o Spark, com o intuito de elaborar e desenvolver um notebook de EDA (Exploration Data Analysis), para a catalogação de padrões e produção de gráficos.
+Projeto envolvendo análise, exploração e manipulação de dados de um dataset de produções da Lego utilizando o Apache Spark, com o intuito de elaborar e desenvolver um notebook de EDA (Exploration Data Analysis), para a catalogação de padrões e produção de gráficos.
 
 Feito para a matéria de I.A Big Data e Engenharia de Dados, da PUC-SP.
 
