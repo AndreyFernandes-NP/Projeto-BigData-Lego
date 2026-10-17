@@ -6,6 +6,7 @@ from pathlib import Path
 @dataclass(frozen=True)
 class ProjectPaths:
     root:           Path   # Projeto-Catapulta-DOE/
+    data:           Path   # data/
     src:            Path   # src/
     notebooks:      Path   # notebooks/
 
@@ -17,6 +18,7 @@ def get_project_paths(root: Path | None = None) -> ProjectPaths:
     return ProjectPaths(
         root           = project_root,
         src            = src_dir,
+        data           = data_dir,
         notebooks      = project_root / "notebooks",
     )
 
