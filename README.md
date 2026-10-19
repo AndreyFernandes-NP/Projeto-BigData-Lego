@@ -33,6 +33,7 @@ Projeto-Bigdata-Lego/
 |   ├── __init__.py
 |   ├── __main__.py
 |   ├── data_loader.py
+|   ├── spark_session.py
 ├── requirements.txt
 └── README.md
 ```
