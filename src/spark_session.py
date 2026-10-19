@@ -1,3 +1,9 @@
+"""
+spark_session.py
+--------------
+Função para criar uma sessão Spark, com suporte a sistemas Windows e caminhos não-ASCII.
+"""
+
 import atexit
 import os
 import shutil
@@ -14,7 +20,7 @@ from pyspark.sql import SparkSession
 
 
 def create_spark_session(app_name: str = "Lego-EDA") -> SparkSession:
-    """Return the active Spark session or create one with required path handling."""
+    """Retorna uma sessão Spark ativa, criando uma nova se necessário. Em sistemas Windows, cria um junction temporário para contornar problemas de caminho não-ASCII."""
     active_session = SparkSession.getActiveSession()
     if active_session is not None:
         return active_session
